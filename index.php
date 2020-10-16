@@ -97,6 +97,18 @@ Kirby::plugin('ww/merx', [
             'error.merx.cart.update' => 'Produkte konnten nicht aktualisiert werden.',
             'error.merx.order.changeNum' => 'Die Position einer vollständigen Bestellung kann nicht geändert werden.',
             'error.merx.order.changeStatus' => 'Der Status einer vollständigen Bestellung kann nicht geändert werden.',
+        ],        
+        'fa' => [
+            'error.merx.initializePayment' => 'آغاز فرآیند پرداخت ممکن نیست.',
+            'error.merx.noPaymentMethod' => 'روش پرداختی مشخص نشده است.',
+            'error.merx.fieldsvalidation' => 'اعتبارسنجی انجام نشد.',
+            'error.merx.emptycart' => 'سبد خرید خالی است.',
+            'error.merx.completePayment' => 'پرداخت انجام نشد..',
+            'error.merx.paymentCanceled' => 'شما فرآیند پرداخت را لغو کردید.',
+            'error.merx.cart.add' => '"{id}" به سبد خرید اضافه نشد.',
+            'error.merx.cart.update' => 'بروزرسانی موارد سبد خرید انجام نشد.',
+            'error.merx.order.changeNum' => 'ترتیب سازی یک سفارش کامل قابل تغییر نیست.',
+            'error.merx.order.changeStatus' => 'وضعیت یک سفارش کامل قابل تغییر نیست.',
         ],
     ],
     'hooks' => [
